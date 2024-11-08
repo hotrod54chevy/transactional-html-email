@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional/EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-trasitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;  charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Transactional-Email</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #cccccc;
+        }
+        table {
+            border-spacing: 0;
+        }
+        td {
+            padding: 0;
+        }
+        img {
+            border: 0;
+        }
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc
+            padding-bottom: 60px;
+        }
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #000000;
+        
+        }
+        .logo {
+            text-align: center;
+            
+        }
+        .thank-you {
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .greeting {
+            text-align: center;
+            font-weight: bold;
+        }
+        .thanks {
+            text-align: center;
+            font-weight: 100;
+        }
+        .invoice {
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .ID {
+            text-align: center;
+            font-weight: bold;
+            font-size: xx-large;
+        }
+        .divider {
+            padding-left: 20px;
+            
+        }
+        .order-info {
+            text-align: left;
+            font-weight: bold;
+            color: #cccccc;
+        }
+        .order-data {
+            text-align: left;
+        }
+        .help {
+            text-align: center;
+        }
+        .link {
+            color: #0000EE;
+        }
+        .view {
+            text-align: center;
+        }
+        .legal {
+            font-size: x-small;
+            text-align: center;
+        }
+        .legal-link {
+            font-size: x-small;
+            color: #0000EE;
+            text-align: center;
+        }
+        .terms {
+            color: #0000EE;
+            text-align: right;
+        }
+        .privacy {
+            color: #0000EE;
+            text-align: left;
+        }
+     
+        .footer {
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <center class="wrapper">
+
+        <table class="main" width="100%">
+
+
+<!-- TOP BORDER -->
+
+            <tr>
+                <td height="8" style="background-color: #000000;"></td>
+            </tr>
+
+<!-- LOGO SECTION -->
+
+            <tr>
+                <td>
+                    <table width="100%" style="text-align: center;">
+                        <tr>
+                            <td>
+                                <a class="logo" href="https://franktdev.com"><img src="img/logo.png" alt="goodie boy logo" width="180" ></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+<!-- THANK YOU SECTION -->
+
+            <tr>
+                <td class="thank-you">Thank You.</td>
+            </tr>
+      
+<!-- GREETING SECTION -->
+
+<tr>
+    <td class="greeting">Hi Customer!</td>
+</tr>
+<tr>
+    <td class="thanks">Thank you for your purchase!</td>
+</tr>
+
+<!-- INVOICE SECTION -->
+            <tr>
+                <td class="invoice">
+                    INVOICE ID:
+                </td>
+            </tr>
+            <tr>
+                <td class="ID">
+                    F3729843720
+                </td>
+            </tr>
+            
+
+
+
+<!-- INFO SECTION -->
+            <table class="main" width="100%">
+                
+                <tr>
+                    <th class="order-info" colspan="3">YOUR ORDER INFORMATION:</th>
+                </tr>
+<!-- DIVIDER -->
+                <tr>
+                    <td class="divider">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="order-data">Order ID:</th>
+                    <th class="order-data">Bill To:</th>
+                </tr>
+                <tr>
+                    <td>F3729843720</td>
+                    <td class="link">Customer@gmail.com</td>
+                </tr>
+                <tr>
+                    <th class="order-data">Order Date:</th>
+                    <th class="order-data">Source:</th>
+                </tr>
+                <tr>
+                    <td>September 13, 2024</td>
+                    <td>Goodie Boy Store</td>
+                </tr>
+                <tr>
+                    <td class="order-info" colspan="3">HERE'S WHAT YOU ORDERED:</td>
+                </tr>
+<!-- DIVIDER -->
+            <tr>
+                <td class="divider">
+                    <hr>
+                </td>
+            </tr>
+
+            <tr>
+                <th class="order-data">Description:</th>
+                <th class="order-data">Publisher:</th>
+                <th class="order-data">Price:</th>
+            </tr>
+            <tr>
+                <td>SUPER CRAZY RHYTHM CASTLE</td>
+                <td>KONAMI</td>
+                <td>$39.99 USD</td>
+            </tr>
+            <tr>
+                <td>Red Dead Redemption 2</td>
+                <td>Rockstar</td>
+                <td>$59.99 USD</td>
+            </tr>
+            <tr>
+                <td>Palworld</td>
+                <td>Pocketpair</td>
+                <td>$29.99 USD</td>
+            </tr>
+            <tr>
+                <td>Warhammer 40,000: Space Marine 2</td>
+                <td>Saber Interactive</td>
+                <td>$59.99 USD</td>
+            </tr>
+            <tr>
+                <th class="order-data">Discounts:</th>
+            </tr>
+            <tr>
+                <td>Sale Discount</td>
+                <td>-$39.99 USD</td>
+
+<!-- DIVIDER -->
+            <tr>
+                <td class="divider">
+                    <hr>
+                </td>
+            </tr>
+
+            </tr>
+            <tr>
+                <th class="order-data">Subtotal:</th>
+                <th class="order-data">Tax:</th>
+            </tr>
+            <tr>
+                <td>$149.97 USD</td>
+                <td>$8.62 USD</td>
+            </tr>
+            <tr>
+                <th class="order-info">TOTAL:</th>
+                <th class="order-data">$158.59 USD</th>
+            </tr>
+<!-- DIVIDER -->
+            <tr>
+                <td class="divider">
+                    <hr>
+                </td>
+            </tr>
+
+   
+            </table>
+<!-- LEGAL SECTION-->
+
+            <table class="main" width="100%">
+                
+                <tr class="view">
+                    <td>Please keep a copy of this receipt for your records.</td>
+                </tr>
+                <tr class="view">
+                    <td class="link">View your purchase history</td>
+                </tr>
+                <tr class="view">
+                    <td class="link">View your Goodie Rewards balance</td>
+                </tr>
+
+<!-- DIVIDER -->
+                <tr>
+                    <td class="divider">
+                        <hr>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Games and apps purchased on the Goodie Games Store are eligible for a refund within 14 days of purchase (or 14 days after release for pre-purchases) if they have less than 2 hours of runtime, unless otherwise stated on their Goodie Games Store product page. Offers that include virtual currency or other consumables are marked "non-refundable" and aare not eligible for refund. Most in-app purchases are non-refundable. See our refund policy for more information.</td>
+                </tr>
+                <tr class="legal">
+                    <td class="help">Need help?</td>
+                </tr>
+                <tr class="legal-link">
+                    <td>help.goodiegames.com</td>
+                </tr>
+                <tr class="legal">
+                    <td>&copy 2024, Goodie Inc. All rights reserved. Goodie, Goodie Boy Games, the Goodie Boy Games logo, Goodie Games Store logo are trademarks or registered trademarks of Goodie games Inc. In the USA and elsewhere. All other trademarks are the property of their respective owners. </td>
+                </tr>
+                <table class="main">
+                    <tr class="legal">
+                        <td class="terms">Terms of Service</td>
+                        <td class="view">|</td>
+                        <td class="privacy">Privacy Policy</td>
+                    </tr>
+                </table>
+
+
+<!-- FOOTER SECTION -->
+
+ 
+                <tr>
+                    <td>
+                        <table class="main" max-width="600px" style="text-align: center;">
+                            <tr>
+                                <td>
+                                    <a href="https://franktdev.com"><img src="img/footer.png" alt="goodie boy games" width="100%" ></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+
+
+
+
+        </table>
+
+    </center>    
+
+</body>
+</html>
